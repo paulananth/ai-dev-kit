@@ -22,7 +22,6 @@ from .dashboards import (
     create_dashboard,
     create_or_update_dashboard,
     deploy_dashboard,
-    deploy_dashboard_sync,
     find_dashboard_by_path,
     get_dashboard,
     get_dashboard_by_name,
@@ -50,7 +49,6 @@ __all__ = [
     # High-level deploy
     "create_or_update_dashboard",
     "deploy_dashboard",
-    "deploy_dashboard_sync",
     # Models
     "DashboardDeploymentResult",
 ]
